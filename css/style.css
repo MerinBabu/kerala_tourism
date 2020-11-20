@@ -1,0 +1,204 @@
+.navbar {
+    background-color: #5DC3EC !important;
+    height: 85px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar button:hover {
+    background-color: white;
+    color: #5DC3EC;
+}
+
+.navbar button {
+    border: 2px solid white !important;
+    color: white;
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, #57bd81, #5DC3EC);
+    color: white;
+    height: 5em;
+    margin-top: 3px;
+}
+
+.myMargin {
+    margin: 0.25%;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 1.2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-margin {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.about-margin #about-text p {
+    margin-left: 75px;
+}
+
+.about-margin #about-img img {
+    margin-left: 200px;
+}
+
+.about-heading {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.district-heading {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card h4 {
+    color: black;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 1.3em;
+}
+
+.last-card {
+    max-width: 355px;
+}
+
+.card-row {
+    margin-top: 100px;
+}
+
+.row #about-district {
+    margin-left: 190px;
+    margin-top: 100px;
+    margin-right: 155px;
+    margin-bottom: 100px;
+}
+
+.row #img-district {
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 155px;
+    margin-bottom: 100px;
+}
+
+.imp-places-heading {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 35px;
+}
+
+#temp1 {
+    max-width: 400px;
+    margin-left: 60px;
+}
+
+#temp2 {
+    max-width: 400px;
+    margin-left: 220px;
+}
+
+button {
+    color: white;
+    background-color: teal;
+    text-align: center;
+    font-size: 1.2em;
+    width: 20%;
+}
+
+.button-container {
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-margin {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#sign-in {
+    text-align: center;
+}
+
+meter {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0 auto 1em;
+    width: 100%;
+    height: .5em;
+    /* Applicable only to Firefox */
+    background: none;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+meter::-webkit-meter-bar {
+    background: none;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+meter[value="1"]::-webkit-meter-optimum-value {
+    background: red;
+}
+
+meter[value="2"]::-webkit-meter-optimum-value {
+    background: yellow;
+}
+
+meter[value="3"]::-webkit-meter-optimum-value {
+    background: orange;
+}
+
+meter[value="4"]::-webkit-meter-optimum-value {
+    background: green;
+}
+
+meter[value="1"]::-moz-meter-bar {
+    background: red;
+}
+
+meter[value="2"]::-moz-meter-bar {
+    background: yellow;
+}
+
+meter[value="3"]::-moz-meter-bar {
+    background: orange;
+}
+
+meter[value="4"]::-moz-meter-bar {
+    background: green;
+}
+
+.feedback {
+    color: #9ab;
+    font-size: 90%;
+    padding: 0 .25em;
+    font-family: Courgette, cursive;
+    margin-top: 1em;
+}
